@@ -113,7 +113,7 @@
           </li>
         </ul>
       </section>
-      <section class="training-types">
+      <section class="training-types container-wide">
         <h2 class="visually-hidden">Types of training</h2>
         <ul class="training-types-list">
           <li class="training-types-item">
@@ -161,7 +161,7 @@
               data-title="Go!">
                 Start here
               </h3>
-              <div class="join-us-from-subtitle">
+              <div class="join-us-from-subtitle section-description">
                 fill the form below to start your journey
               </div>
             </header>
@@ -183,7 +183,261 @@
           </form>
          </div>
       </section>
-      <section class="location"></section>
+      <section class="location container-wide">
+        <img src="/images/map.jpg" alt="Branches on the map" class="location-map-image"
+        width="600" height="960" loading="lazy">
+        <div class="location-body">
+          <h2 class="location-title title-medium backdrop-title centered">
+            Find us near you
+          </h2>
+          <div class="location-description">
+            <p>
+              Nec suas signiferumque id. An eum labore commodo principes. Usu diam noluisse cu, nam adipisci
+            </p>
+          </div>
+          <a href="" class="location-button button transparent">
+            View more
+          </a>
+        </div>
+      </section>
+      <section class="family">
+        <header class="family-header container">
+          <h2 class="family-title title-big backdrop-title centered" data-title="Part">
+            be a part of our fit family
+          </h2>
+          <div class="family-description section-description">
+            <p>Training helps you think and feel better. join us!</p>
+          </div>
+        </header>
+        <div class="family-body container-wide">
+          <img class="family-image" src="/images/family/1.jpg" alt="Training people" width="414" height="479" loading="lazy">
+           <img class="family-image" src="/images/family/2.jpg" alt="Training people" width="744" height="479" loading="lazy"> 
+           <img class="family-image" src="/images/family/3.jpg" alt="Training people" width="396" height="479" loading="lazy"> 
+           <img class="family-image" src="/images/family/4.jpg" alt="Training people" width="396" height="479" loading="lazy"> 
+           <img class="family-image" src="/images/family/1.jpg" alt="Training people" width="414" height="479" loading="lazy">
+        </div>
+      </section>
+      <section class="calculate">
+        <div class="calculate-inner container">
+          <div class="calculate-body">
+            <h2 class="calculate-title title-medium backdrop-title" data-title="BMI">
+              Input your BMI
+            </h2>
+            <div class="calculate-description">
+              <p>
+                Duo graece ponderum ne, ei mel aliquando. Pro te tamquam nonumes, nam no nemore epicurei
+              </p>
+            </div>
+            <form class="calculate-form">
+              <div class="calculate-form-body">
+                <label class="visually-hidden" for="height">Height</label>
+              <input 
+              id="height" 
+              placeholder="Height / cm" 
+              type ="number" 
+              class="calculate-input input">
+              <label class="visually-hidden" for="weight">Weight</label>
+              <input 
+              id="weight" 
+              placeholder="Weight / cm" 
+              type ="number" 
+              class="calculate-input input">
+<label class="visually-hidden" for="age">Age</label>
+              <input 
+              id="age" 
+              placeholder="age" 
+              type ="number" 
+              class="calculate-input input">
+
+              <label class="visually-hidden" for="gender">Gender</label>
+              <select class="calculate-input input" id="gender" required>
+                <option value="" disabled selected>Gender</option>
+                <option  value="male" >Male</option>
+                <option  value="female" >Female</option>
+              </select>
+
+               <label class="visually-hidden" for="activity-factor"></label>
+              <select class="calculate-input input wide" id="activity-factor" required>
+                <option value="" disabled selected>Select an activity factor:</option>
+                <option  value="1" >1</option>
+                <option  value="2" >2</option>
+              </select>
+
+              </div>
+              <button class="calculate-button button transparent" type="submit">
+                Calculate
+              </button>
+            </form>
+          </div>
+          <div class="calculate-table-wrapper">
+            <div class="calculate-table">
+              <table>
+
+                <thead>
+                  <tr>
+                    <th>BMI</th>
+                    <th>Weight status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Below 18.5</td>
+                    <td>Underweight</td>
+                  </tr>
+                  <tr>
+                    <td>18.5 - 24.9</td>
+                    <td>Healthy</td>
+                  </tr>
+                  <tr>
+                    <td>25.0 - 29.9</td>
+                    <td>Overweight</td>
+                  </tr>
+                 <tr>
+                  <td>30.0 - and Above</td>
+                  <td>Obese</td>
+                </tr> 
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="2"><b>BMR</b> Metabolic Rate / <b>BMI</b>  Body Mass Index</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="footer-main-inner container">
+          <header class="footer-header">
+            <a href="/" class="footer-logo">
+              <img class="footer-logo-image" src="/images/header-logo.png" alt="Kropp Logo" width="270" height="50" loading="lazy">
+            </a>
+            <p class="footer-description">
+              please feel free to send us an e-mail at <a href="mailto:kropp@qodeinteractive.com">kropp@qodeinteractive.com</a> For any additional inquiries
+            </p>
+          </header>
+          <div class="footer-body">
+            <div class="footer-column">
+              <h2 class="footer-column-title">About</h2>
+              <p class="footer-about">
+                Shape up your site with Kropp,a theme especially made for fitness & gym websites.
+              </p>
+            </div>
+            <div class="footer-column">
+              <h2 class="footer-column-title">Working hours</h2>
+              <div class="footer-schedule">
+                Monday - Friday<br/>
+                <time datetime="00:00/24:00">00:00 - 24:00</time>
+              </div>
+              <div class="footer-schedule">
+                Weekdays<br/>
+              <time datetime="00:00/24:00">00:00 - 24:00</time>                
+              </div>
+            </div>
+            <div class="footer-column">
+              <h2 class="footer-column-title">Location</h2>
+              <address class="footer-address">
+                68 Jay Street, Brooklyn,<br/>
+                NY 11201, United States
+              </address>
+              <div class="footer-contacts">
+                <ul class="footer-contacts-list">
+                  <li class="footer-contacts-item">
+                    <a href="mailto:kropp@qodeinteractive.com" class="footer-contacts-link">
+                      kropp@qodeinteractive.com
+                    </a>
+                  </li>
+                  <li class="footer-contacts-item">
+                    <a href="tell:+17184076400" class="footer-contacts-link">
+                      + (1) 718 - 407 - 6400
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="footer-column">
+              <h2 class="footer-column-title has-arrow">start now</h2>
+              <form class="footer-subscribe">
+                <label class="visually-hidden" for="subscribe-email">Email</label>
+                <input type="email" class="footer-subscribe-input input" id="subscribe-email"
+                placeholder="Email">
+                <button class="footer-subscribe-button"
+                type="submit"
+                title="Subscribe">
+                <span class="visually-hidden">Subscribe</span>
+              </button>
+              </form>
+              <div class="footer-soc1als">
+                <ul class="footer-soc1als-list">
+                  <li class="footer-soc1als-item">
+                    <a href="/" class="footer-soc1als-link" target="_blank">
+               <svg width="20px" height="20px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tiktok_fill</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Brand" transform="translate(-720.000000, -48.000000)">
+            <g id="tiktok_fill" transform="translate(720.000000, 48.000000)">
+                <path d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5934901,23.257841 L12.5819402,23.2595131 L12.5108777,23.2950439 L12.4918791,23.2987469 L12.4918791,23.2987469 L12.4767152,23.2950439 L12.4056548,23.2595131 C12.3958229,23.2563662 12.3870493,23.2590235 12.3821421,23.2649074 L12.3780323,23.275831 L12.360941,23.7031097 L12.3658947,23.7234994 L12.3769048,23.7357139 L12.4804777,23.8096931 L12.4953491,23.8136134 L12.4953491,23.8136134 L12.5071152,23.8096931 L12.6106902,23.7357139 L12.6232938,23.7196733 L12.6232938,23.7196733 L12.6266527,23.7031097 L12.609561,23.275831 C12.6075724,23.2657013 12.6010112,23.2592993 12.5934901,23.257841 L12.5934901,23.257841 Z M12.8583906,23.1452862 L12.8445485,23.1473072 L12.6598443,23.2396597 L12.6498822,23.2499052 L12.6498822,23.2499052 L12.6471943,23.2611114 L12.6650943,23.6906389 L12.6699349,23.7034178 L12.6699349,23.7034178 L12.678386,23.7104931 L12.8793402,23.8032389 C12.8914285,23.8068999 12.9022333,23.8029875 12.9078286,23.7952264 L12.9118235,23.7811639 L12.8776777,23.1665331 C12.8752882,23.1545897 12.8674102,23.1470016 12.8583906,23.1452862 L12.8583906,23.1452862 Z M12.1430473,23.1473072 C12.1332178,23.1423925 12.1221763,23.1452606 12.1156365,23.1525954 L12.1099173,23.1665331 L12.0757714,23.7811639 C12.0751323,23.7926639 12.0828099,23.8018602 12.0926481,23.8045676 L12.108256,23.8032389 L12.3092106,23.7104931 L12.3186497,23.7024347 L12.3186497,23.7024347 L12.3225043,23.6906389 L12.340401,23.2611114 L12.337245,23.2485176 L12.337245,23.2485176 L12.3277531,23.2396597 L12.1430473,23.1473072 Z" id="MingCute" fill-rule="nonzero">
+
+</path>
+                <path d="M14,2 C15.1046,2 16,2.89543 16,4 C16,5.44733 17.03,6.6618 18.3984,6.93991 C19.4808,7.15992 20.1799,8.21575 19.9599,9.29819 C19.7399,10.3806 18.6841,11.0798 17.6016,10.8598 C17.0406,10.7457 16.5037,10.5646 16,10.3252 L16,16 C16,19.3137 13.3137,22 10,22 C6.68629,22 4,19.3137 4,16 C4,13.2015 5.91407,10.8551 8.50148,10.1891 C9.57119,9.91382 10.6616,10.5578 10.9369,11.6275 C11.2122,12.6972 10.5682,13.7876 9.49852,14.0629 C8.63547,14.285 8,15.0708 8,16 C8,17.1046 8.89543,18 10,18 C11.1046,18 12,17.1046 12,16 L12,4 C12,2.89543 12.8954,2 14,2 Z" id="路径" fill="#09244B">
+
+</path>
+            </g>
+        </g>
+    </g>
+</svg>
+                    </a>
+                  </li>
+                  <li class="footer-soc1als-item"></li>
+                    <a href="/" class="footer-soc1als-link" target="_blank">
+<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14 12L10.5 14V10L14 12Z" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 12.7075V11.2924C2 8.39705 2 6.94939 2.90549 6.01792C3.81099 5.08645 5.23656 5.04613 8.08769 4.96549C9.43873 4.92728 10.8188 4.8999 12 4.8999C13.1812 4.8999 14.5613 4.92728 15.9123 4.96549C18.7634 5.04613 20.189 5.08645 21.0945 6.01792C22 6.94939 22 8.39705 22 11.2924V12.7075C22 15.6028 22 17.0505 21.0945 17.9819C20.189 18.9134 18.7635 18.9537 15.9124 19.0344C14.5613 19.0726 13.1812 19.1 12 19.1C10.8188 19.1 9.43867 19.0726 8.0876 19.0344C5.23651 18.9537 3.81097 18.9134 2.90548 17.9819C2 17.0505 2 15.6028 2 12.7075Z" stroke="#000000" stroke-width="1.5"/>
+</svg>
+                    </a>
+                  </li>
+                  <li class="footer-soc1als-item"></li>
+                    <a href="/" class="footer-soc1als-link" target="_blank">
+                    <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 15.5C13.933 15.5 15.5 13.933 15.5 12C15.5 10.067 13.933 8.5 12 8.5C10.067 8.5 8.5 10.067 8.5 12C8.5 13.933 10.067 15.5 12 15.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.6361 7H17.6477" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                    </a>
+                  </li>
+                  <li class="footer-soc1als-item"></li>
+                    <a href="/" class="footer-soc1als-link" target="_blank">
+                    <svg fill="white" height="20px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="-337 273 123.5 256" xml:space="preserve">
+<path d="M-260.9,327.8c0-10.3,9.2-14,19.5-14c10.3,0,21.3,3.2,21.3,3.2l6.6-39.2c0,0-14-4.8-47.4-4.8c-20.5,0-32.4,7.8-41.1,19.3
+	c-8.2,10.9-8.5,28.4-8.5,39.7v25.7H-337V396h26.5v133h49.6V396h39.3l2.9-38.3h-42.2V327.8z"/>
+</svg>
+                    </a>
+                  </li>
+                  <li class="footer-soc1als-item"></li>
+                    <a href="/" class="footer-soc1als-link" target="_blank">
+                    <svg fill="white" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1920 311.856c-70.701 33.769-146.598 56.47-226.221 66.86 81.317-52.517 143.774-135.529 173.252-234.691-76.236 48.678-160.716 84.028-250.391 103.002-71.718-82.56-174.268-134.06-287.435-134.06-217.75 0-394.165 189.966-394.165 424.206 0 33.318 3.614 65.619 10.165 96.678C617.9 616.119 327.304 447.385 133.045 190.67c-33.77 62.57-53.309 135.53-53.309 213.233 0 147.162 91.031 276.818 196.744 353.054-64.602-2.26-157.101-21.46-157.101-53.309v5.648c0 205.327 114.41 376.658 294.55 415.849-32.978 9.487-78.38 14.795-114.409 14.795-25.412 0-55.454-2.71-79.624-7.793 50.26 168.509 193.13 291.163 365.478 294.777-134.852 113.506-306.07 181.383-490.616 181.383-31.85 0-64.038-2.033-94.758-5.873 174.494 120.17 381.176 190.532 603.67 190.532 724.97 0 1121.055-646.136 1121.055-1206.55 0-18.41-.452-36.932-1.356-55.116 77.026-59.746 143.887-134.4 196.631-219.444" fill-rule="evenodd"/>
+</svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-extra">
+        <div class="footer-extra-inner container">
+          <div class="footer-cpyright">
+            © <time datetime="2022">2022</time> Qode Interactive, All Rights Reserved | <a href="/">Privacy Policy</a> | <a href="/">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
